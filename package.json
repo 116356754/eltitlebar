@@ -1,0 +1,29 @@
+{
+  "name": "eltitlebar",
+  "version": "1.0.0",
+  "description": "windows titlebar in electron",
+  "main": "index.js",
+  "dependencies": {
+    "defaultcss": "^1.1.1",
+    "dombo": "^3.2.0",
+    "domify": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/116356754/titlebar.git"
+  },
+  "keywords": [
+    "titlebar",
+    "electron"
+  ],
+  "author": "wangky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/116356754/titlebar/issues"
+  },
+  "homepage": "https://github.com/116356754/titlebar#readme"
+}
