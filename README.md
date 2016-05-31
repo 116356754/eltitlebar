@@ -1,14 +1,15 @@
 # titlebar
 
 Emulate window title bar. 
-	npm install eltitlebar
+
+npm install eltitlebar
 
 # Usage
 
 Used with browserify or in a similar enviroment.
 
 ```javascript
-var titlebar = require('titlebar');
+var titlebar = require('eltitlebar');
 
 var t = titlebar();
 t.appendTo(document.body);

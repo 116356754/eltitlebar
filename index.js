@@ -7,8 +7,7 @@ var $ = require('dombo');
 
 var electron = require('electron');
 var ipcRenderer = electron.ipcRenderer;
-var remote = require('remote');
-var titlebar = require('titlebar');
+var remote = electron.remote;
 
 var ALT = 18;
 
