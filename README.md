@@ -11,7 +11,9 @@ Used with browserify or in a similar enviroment.
 ```javascript
 var titlebar = require('eltitlebar');
 
-var t = titlebar();
+//if you only want close button set only property is true
+//default is false
+var t = titlebar({only:true});
 t.appendTo(document.body);
 
 t.on('close', function(e) {

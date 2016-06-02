@@ -31,6 +31,11 @@ var TitleBar = function(options) {
 	var close = $('.titlebar-close', element)[0];
 	var minimize = $('.titlebar-minimize', element)[0];
 	var fullscreen = $('.titlebar-fullscreen', element)[0];
+	if(this._options.only ===true)
+	{
+		minimize.style.display='none';
+		fullscreen.style.display='none';
+	}
 
 	$element.on('click', function(e) {
 		var target = e.target;
